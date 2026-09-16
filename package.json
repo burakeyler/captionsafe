@@ -1,0 +1,17 @@
+{
+  "name": "captionsafe",
+  "version": "0.1.0",
+  "description": "Drop stills and b-roll into a video without covering its burned-in captions",
+  "type": "module",
+  "bin": { "captionsafe": "bin/cli.js" },
+  "exports": "./src/insert.js",
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": ["ffmpeg", "video", "captions", "subtitles", "broll", "reels", "shorts", "tiktok", "cli"],
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "repository": { "type": "git", "url": "git+https://github.com/burakeyler/captionsafe.git" },
+  "bugs": { "url": "https://github.com/burakeyler/captionsafe/issues" }
+}
