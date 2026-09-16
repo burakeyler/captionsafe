@@ -13,15 +13,15 @@ Nothing is inserted into the timeline, so **length, audio and caption timing nev
 ## Install
 
 ```bash
-npx captionsafe --help
+npx github:burakeyler/captionsafe --help
 ```
 
-Needs [ffmpeg](https://ffmpeg.org/download.html) on your PATH (`ffmpeg -version` should work) and Node 20+.
+Needs [ffmpeg](https://ffmpeg.org/download.html) on your PATH (`ffmpeg -version` should work) and Node 20+. The npm release (`npx captionsafe`) lands shortly; until then use the GitHub spec above.
 
 ## Use
 
 ```bash
-npx captionsafe -i clip.mp4 -o out.mp4 \
+npx github:burakeyler/captionsafe -i clip.mp4 -o out.mp4 \
   --insert 7.6,3.4,tears.jpg \
   --insert 98.5,4,burden.jpg
 ```
